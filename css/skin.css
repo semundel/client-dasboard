@@ -1,0 +1,25 @@
+#top-header {
+	padding:10px 0;
+}
+
+#top-header h3 {
+	color:#717171;
+	font-weight: normal;
+}
+
+#top-header span {
+	color:#2781cf;
+}
+
+#navigation {
+	background:url(../img/navbar-bg.gif) repeat-x;
+	padding:4px 0;
+}
+
+.row {
+	padding:5px 0 !important;
+}
+
+.clear {
+	clear:both;
+}

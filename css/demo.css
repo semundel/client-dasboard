@@ -1,0 +1,376 @@
+
+html,body{
+width:100%;
+height:100%;
+padding:0;
+background:white;
+margin:0;
+font-family:arial
+}
+a { text-decoration:none }
+.container {  
+margin:0 auto; 
+padding-top:200px;
+ }
+#search{
+float:right;
+margin-right:0px;
+}
+#bar { width:100%; 
+height:35px; 
+padding:15px 0; 
+background:url(../images/bg2.png) repeat-x; }
+
+#container { 
+margin:0 auto; 
+color :white;
+}
+#head_menu { 
+padding-left:40px;
+padding-right:40px;
+margin:0 auto; 
+color :white;
+}
+#isi{
+margin-top:80px;
+background:white;
+padding:20px;
+}
+#data{
+margin-top:32px;
+padding:20px;
+color:#717D7D;
+background:white;
+}
+/* untuk tabel*/
+
+table.padded-table td { 
+	padding:6px; 
+	}
+#kiri{
+margin:0 auto;
+width:900px;
+background: url(../images//grid.gif) repeat scroll 0 0 transparent;
+padding:20px;
+padding-left:20px;
+}
+.scotch {
+    float:right;
+	margin-top:-30px;
+	margin-right:-50px;
+}
+#foot{
+margin:0 auto;
+width:938px;
+background: url(../images//foot.png);
+padding-bottom:6px;
+}
+#kanan{
+width:620px;
+background:#E3E4FA;
+height:230px;
+padding:10px;
+padding-left:20px;
+margin-top:-320px;
+margin-left:694px;
+color:#5E7D7E;
+}
+#tabel {
+	padding:8px;
+	border: 0px #b5e6ff;
+	margin :0 auto;
+	text-align:center;
+}	
+#tabel th {
+	color:#ffffff;
+	background-color:#708090;
+	padding:4px;
+	text-align:center;
+}
+
+/*-------LOGIN STARTS HERE -------*/
+
+/* Login Container (default to float:right) */
+#loginContainer {
+    position:relative;
+    float:right;
+    font-size:12px;
+	padding-left:20px;
+	padding-right:20px;
+}
+#logset{
+	float:right;
+    font-size:12px;
+	margin-right:10px;
+}
+#logset a:hover { color:orange; }
+#logset a {
+	color :white;
+	font-size:15px;
+}
+#main {
+float:right;
+margin-top:-8px;
+margin-right:-20px;
+}
+
+#searchForm fieldset {
+    width:200px;
+	border:none;
+}
+
+div.input {
+    width:120px;
+    padding:5px 15px 7px 15px;
+    border-radius:20px;
+    border:1px solid #c6d2db;
+    border-top:1px solid #b4c1cb;
+    box-shadow:inset 0 1px 2px rgba(0,0,0,0.08);
+    float:right;
+    background:#e8edf1;
+}
+
+    div.input.focus {
+       
+    }
+
+input#s {
+    width:100%;
+    border:0;
+    border-radius:20px;
+    background:transparent;
+    height:16px;
+    color:#b4bdc4;
+    text-shadow:0 1px 1px #fff;
+}
+
+    input#s:focus {
+        outline:none
+    }
+
+input#searchSubmit {
+    width:19px;
+    height:19px;
+    text-indent:-9999px;
+    overflow:hidden;
+    background:url(../images/search-icon.png) no-repeat;
+    border:0;
+    position:absolute;
+    top:7px; right:13px;
+    z-index:5;
+    display:none;
+    cursor:pointer;
+}
+/* Login Button */
+#loginButton { 
+    display:inline-block;
+    float:right;
+    background:#d2e0ea url(../images/buttonbg.png) repeat-x; 
+    border:1px solid #899caa; 
+    border-radius:3px;
+    -moz-border-radius:3px;
+    position:relative;
+    z-index:30;
+    cursor:pointer;
+}
+
+/* Login Button Text */
+#loginButton span {
+    color:#445058; 
+    font-size:14px; 
+    font-weight:bold; 
+    text-shadow:1px 1px #fff; 
+    padding:7px 29px 9px 10px;
+    background:url(../images/loginArrow.png) no-repeat 53px 7px;
+    display:block
+}
+
+#loginButton:hover {
+    background:url(../images/buttonbgHover.png) repeat-x;
+}
+
+/* Login Box */
+#loginBox {
+    position:absolute;
+    top:34px;
+    right:0;
+    display:none;
+    z-index:29;
+}
+
+/* If the Login Button has been clicked */    
+#loginButton.active {
+    border-radius:3px 3px 0 0;
+}
+
+#loginButton.active span {
+    background-position:53px -76px;
+}
+
+/* A Line added to overlap the border */
+#loginButton.active em {
+    position:absolute;
+    width:100%;
+    height:1px;
+    background:#d2e0ea;
+    bottom:-1px;
+}
+
+/* Login Form */
+#loginForm {
+    width:248px; 
+    border:1px solid #899caa;
+    border-radius:3px 0 3px 3px;
+    -moz-border-radius:3px 0 3px 3px;
+    margin-top:-1px;
+    background:#d2e0ea;
+    padding:6px;
+}
+
+#loginForm fieldset {
+    margin:0 0 12px 0;
+    display:block;
+    border:0;
+    padding:0;
+}
+
+fieldset#body {
+    background:#fff;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    padding:10px 13px;
+    margin:0;
+}
+
+#loginForm #checkbox {
+    width:auto;
+    margin:1px 9px 0 0;
+    float:left;
+    padding:0;
+    border:0;
+    *margin:-3px 9px 0 0; /* IE7 Fix */
+}
+
+#body label {
+    color:#3a454d;
+    margin:9px 0 0 0;
+    display:block;
+    float:left;
+}
+
+#loginForm #body fieldset label {
+    display:block;
+    float:none;
+    margin:0 0 6px 0;
+}
+
+/* Default Input */
+#loginForm input {
+    width:92%;
+    border:1px solid #899caa;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    color:#3a454d;
+    font-weight:bold;
+    padding:8px 8px;
+    box-shadow:inset 0px 1px 3px #bbb;
+    -webkit-box-shadow:inset 0px 1px 3px #bbb;
+    -moz-box-shadow:inset 0px 1px 3px #bbb;
+    font-size:12px;
+}
+
+/* Sign In Button */
+#loginForm #login {
+    width:auto;
+    float:left;
+    background:#339cdf url(../images/loginbuttonbg.png) repeat-x;
+    color:#fff;
+    padding:7px 10px 8px 10px;
+    text-shadow:0px -1px #278db8;
+    border:1px solid #339cdf;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    margin:0 12px 0 0;
+    cursor:pointer;
+    *padding:7px 2px 8px 2px; /* IE7 Fix */
+}
+
+/* Forgot your password */
+#loginForm span {
+    text-align:center;
+    display:block;
+    padding:7px 0 4px 0;
+}
+
+#loginForm span a {
+    color:#3a454d;
+    text-shadow:1px 1px #fff;
+    font-size:12px;
+}
+
+input:focus {
+    outline:none;
+}
+
+/* pop up acount*/
+
+
+#backgroundPopup{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:100%;
+width:100%;
+top:0;
+left:0;
+background:#000000;
+border:1px solid #cecece;
+z-index:1;
+}
+#popupContact{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:384px;
+width:800px;
+background:#FFFFFF;
+border:2px solid #cecece;
+z-index:2;
+padding:14px;
+font-size:13px;
+}
+#popupContact2{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:384px;
+width:600px;
+background:#AFC7C7;
+border:2px solid #cecece;
+z-index:2;
+padding:12px;
+font-size:13px;
+}
+#popupContact h1{
+text-align:left;
+color:#6FA5FD;
+font-size:22px;
+font-weight:700;
+border-bottom:1px dotted #D3D3D3;
+padding-bottom:2px;
+margin-bottom:20px;
+}
+#popupContactClose{
+font-size:14px;
+line-height:14px;
+right:6px;
+top:4px;
+position:absolute;
+color:#6fa5fd;
+font-weight:700;
+display:block;
+}
+.button{
+}
+.button a:hover { color:orange; }
