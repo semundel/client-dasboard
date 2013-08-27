@@ -24,11 +24,9 @@ if (isset($username))
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/sorttable/stupidtable.js"></script>
   <script type="text/javascript" src="js/foundation.min.js"></script>
-  
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/sorttable/stupidtable.min.js"></script>
   <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script> 
-  
   <script>
     jQuery(document).ready(function($) {
         $("table").stupidtable();
@@ -227,9 +225,6 @@ if (isset($username))
 	</script>
 </head>
 <body>
-<?php
-
-?>
 	<div id="top-header">
 		<div class="row">
 			<div class="large-4 columns">
